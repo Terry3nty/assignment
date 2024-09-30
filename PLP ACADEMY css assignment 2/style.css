@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:burlywood;
+    place-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: black;
+    padding-top: 1px;
+    border-radius: 20px;
+    position: sticky;
+    top: 2px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:  skyblue;
+    transition: all 1s ease-in-out;
+}
+
+li a:focus {
+    color: skyblue;
+    transition: all 1s ease-in-out;
+}
+
+li a:active{
+    color: skyblue;
+    transition: all 1s ease-in-out;
+}
+
+
+img{
+    border-radius: 80px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    place-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+}
+
+.flex-container > div {
+    background-color: beige;
+    width: 100px;
+    margin: 10px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color:aquamarine;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
